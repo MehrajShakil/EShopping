@@ -1,0 +1,11 @@
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\bin\Debug\net8.0\Catalog.Core.deps.json
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\bin\Debug\net8.0\Catalog.Core.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\bin\Debug\net8.0\Catalog.Core.pdb
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfoInputs.cache
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfo.cs
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.CoreCompileInputs.cache
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
+F:\Personal Project\Microservices\EShopping\EShopping\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll

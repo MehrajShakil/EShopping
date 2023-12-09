@@ -1,8 +1,8 @@
 ﻿using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
+using Catalog.Core.Responses;
 using Catalog.Infrastructure.Data;
 using MongoDB.Driver;
-using System.Collections;
 
 namespace Catalog.Infrastructure.Repositories;
 
@@ -15,12 +15,25 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
         context = Context;
     }
 
-    public async Task<bool> DeleteProductByIdAsync(string id)
+    public async Task<ProductDeleteResponse> DeleteProductByIdAsync(string id)
     {
         var builder = Builders<Product>.Filter;
         var filter = builder.Eq<string>(p => p.Id, id);
         var deleteResult = await context.Product.DeleteOneAsync(filter);
-        return deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
+
+        ProductDeleteResponse productDeleteResponse = new();
+
+        return productDeleteResponse;
+    }
+
+    public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
+    {
+        throw new NotImplementedException();
+    }
+
+    public async Task<IEnumerable<Product>> GetProductsAsync()
+    {
+        throw new NotImplementedException();
     }
 
     public async Task<IEnumerable<ProductBrand>> GetAllBrandsAsync()
@@ -34,7 +47,7 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
         return brands;
     }
 
-    public Task<ProductType> GetAllTypes()
+    public async Task<ProductType> GetAllTypesAsync()
     {
         throw new NotImplementedException();
     }
@@ -44,7 +57,7 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
         throw new NotImplementedException();
     }
 
-    public Task<IEnumerable<Product>> GetProductByIdAsync(string id)
+    public async Task<IEnumerable<Product>> GetProductByIdAsync(string id)
     {
         throw new NotImplementedException();
     }

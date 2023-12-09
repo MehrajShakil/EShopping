@@ -10,8 +10,9 @@ public class GetAllBrandsHandler(IProductBrandRepository productBrandRepository,
 {
     public async Task<IList<BrandResponse>> Handle(GetAllBrandsQuery request, CancellationToken cancellationToken)
     {
-        var brands = await productBrandRepository.GetAllBrandsAsync();
-        var response = mapper.Map<IList<BrandResponse>>(brands);
-        return response;
+        /* var brands = await productBrandRepository.GetAllBrandsAsync();
+         var response = mapper.Map<IList<BrandResponse>>(brands);
+         return response;*/
+        return null;
     }
 }

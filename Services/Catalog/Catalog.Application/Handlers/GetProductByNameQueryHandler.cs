@@ -10,8 +10,9 @@ public class GetProductByNameQueryHandler(IProductRepositories repository, IMapp
 {
     public async Task<IList<ProductResponse>> Handle(GetProductByNameQuery request, CancellationToken cancellationToken)
     {
-        var products  = await repository.GetProductsByNameAsync(request.Name);
+        /*var products  = await repository.GetProductsByNameAsync(request.Name);
         var response = mapper.Map<IList<ProductResponse>>(products);
-        return response;
+        return response;*/
+        return null;
     }
 }

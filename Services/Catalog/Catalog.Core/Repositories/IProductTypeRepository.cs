@@ -1,8 +1,9 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Pagination;
 
 namespace Catalog.Core.Repositories;
 
 public interface IProductTypeRepository
 {
-    public Task<ProductType> GetAllTypesAsync();
+    Task<PaginatedResponse<ProductType>> GetAllTypesAsync(PageItemRequest request);
 }

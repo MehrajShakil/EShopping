@@ -1,5 +1,7 @@
-﻿namespace Catalog.Application.Responses;
+﻿using Catalog.Core.Responses;
 
-public class ProductResponse
+namespace Catalog.Application.Responses;
+
+public class ProductResponse : ResponseBase
 {
 }

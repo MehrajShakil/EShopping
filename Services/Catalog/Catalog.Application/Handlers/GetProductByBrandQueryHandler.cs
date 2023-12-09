@@ -10,8 +10,9 @@ public sealed class GetProductByBrandQueryHandler(IProductRepositories repositor
 {
     public async Task<ProductResponse> Handle(GetProductByBrandQuery request, CancellationToken cancellationToken)
     {
-        var product = await repository.GetProductByBrandNameAsync(request.BrandName);
+        /*var product = await repository.GetProductByBrandNameAsync(request.BrandName);
         var response = mapper.Map<ProductResponse>(product);
-        return response;
+        return response;*/
+        return null;
     }
 }

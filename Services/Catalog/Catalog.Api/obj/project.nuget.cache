@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uN1SGVRSxOSnot+3DpVbb3ECDtEvAT1OK00A+YGg5NdWh0IBywiSa7aF9/XKmNjXwl0rYG1ifQ5lh7f6aNkvrg==",
+  "dgSpecHash": "o8y4oJs+PHRnXdRLBHC6Ox8vsbO+9CxVZMhCe6wnVpHuZjZlE1tZQDRPVTldXD9j9Wu18kURpEua//AyWzAzcA==",
   "success": true,
   "projectFilePath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mongodb.driver\\2.22.0\\mongodb.driver.2.22.0.nupkg.sha512",

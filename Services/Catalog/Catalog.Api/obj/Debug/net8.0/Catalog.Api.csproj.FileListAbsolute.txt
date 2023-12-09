@@ -5,6 +5,12 @@ F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.A
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Api.runtimeconfig.json
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Api.dll
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Api.pdb
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Http.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\HealthChecks.UI.Core.dll
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\AutoMapper.dll
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\AWSSDK.Core.dll
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\AWSSDK.SecurityToken.dll

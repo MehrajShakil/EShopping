@@ -1,7 +1,9 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Pagination;
 using Catalog.Core.Repositories;
 using Catalog.Core.Responses;
 using Catalog.Infrastructure.Data;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Catalog.Infrastructure.Repositories;
@@ -25,50 +27,98 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
 
         return productDeleteResponse;
     }
-
-    public async Task<IEnumerable<Product>> GetProductsByNameAsync(string name)
+    public async Task<PaginatedResponse<Product>> GetProductsAsync(PageItemRequest request)
     {
-        throw new NotImplementedException();
-    }
-
-    public async Task<IEnumerable<Product>> GetProductsAsync()
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task<IEnumerable<ProductBrand>> GetAllBrandsAsync()
-    {
-        var brands = await context
-            .ProductBrand
-            .Find(brand => true)
+        var items = await context
+            .Product
+            .Find(product => true)
+            .Skip(request.PageSize * (request.PageIndex-1))
+            .Limit(request.PageSize)
             .ToListAsync();
 
-        if(brands is null) return Enumerable.Empty<ProductBrand>().ToList();
-        return brands;
-    }
+        var pageResponse = new PaginatedResponse<Product>()
+        {
+            PageIndex = request.PageIndex,
+            Items = items
+        };
 
-    public async Task<ProductType> GetAllTypesAsync()
+        return pageResponse;
+    }
+    public async Task<PaginatedResponse<ProductBrand>> GetAllBrandsAsync(PageItemRequest request)
     {
-        throw new NotImplementedException();
-    }
+        var items = await context
+            .ProductBrand
+            .Find(brand => true)
+            .Skip(request.PageSize * (request.PageIndex - 1))
+            .Limit(request.PageSize)
+            .ToListAsync();
 
-    public Task<IEnumerable<Product>> GetProductByBrandNameAsync(string name)
+        var pageResponse = new PaginatedResponse<ProductBrand>()
+        {
+            PageIndex = request.PageIndex,
+            Items = items
+        };
+
+        return pageResponse;
+    }
+    public async Task<PaginatedResponse<ProductType>> GetAllTypesAsync(PageItemRequest request)
     {
-        throw new NotImplementedException();
-    }
+        var items = await context
+            .ProductType
+            .Find(brand => true)
+            .Skip(request.PageSize * (request.PageIndex - 1))
+            .Limit(request.PageSize)
+            .ToListAsync();
 
-    public async Task<IEnumerable<Product>> GetProductByIdAsync(string id)
+        var pageResponse = new PaginatedResponse<ProductType>()
+        {
+            PageIndex = request.PageIndex,
+            Items = items
+        };
+
+        return pageResponse;
+    }
+    public async Task<Product> GetProductByIdAsync(string id)
     {
-        throw new NotImplementedException();
+        var builder = Builders<Product>.Filter;
+        var filter = builder.Eq(product => product.Id, id);
+        var item = await context
+            .Product
+            .Find(filter)
+            .FirstOrDefaultAsync();
+        return item;
     }
-
-    public Task<IEnumerable<Product>> GetProductByTypeNameAsync(string name)
-    {
-        throw new NotImplementedException();
-    }
-
     public Task<bool> UpdateProduct(Product product)
     {
         throw new NotImplementedException();
+    }
+    public async Task<bool> UpdateProduct(string id, Dictionary<string, object> fields)
+    {
+
+        var updateFields = new List<UpdateDefinition<Product>>();
+
+        var builder = Builders<Product>.Filter;
+        var filter = builder.Eq(product => product.Id, id);
+
+        var updateBuilder = Builders<Product>.Update;
+
+        foreach(var field in fields)
+        {
+            updateFields.Add(updateBuilder.Set(field.Key, field.Value));
+        }
+
+        var updateDefinition = updateBuilder.Combine(updateFields);
+
+
+        var updatedResponse = await context
+            .Product
+            .UpdateOneAsync(filter, updateDefinition);
+
+        return updatedResponse.IsAcknowledged && updatedResponse.IsModifiedCountAvailable;
+    }
+
+    public async Task CreateProduct(Product product)
+    {
+        await context.Product.InsertOneAsync(product);
     }
 }

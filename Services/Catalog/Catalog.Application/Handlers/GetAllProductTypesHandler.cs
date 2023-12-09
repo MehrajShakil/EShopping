@@ -10,8 +10,9 @@ public class GetAllProductTypesHandler(IProductTypeRepository repositories, IMap
 {
     public async Task<IList<TypeResponse>> Handle(GetAllProductTypesQuery request, CancellationToken cancellationToken)
     {
-        var productTypes = await repositories.GetAllTypesAsync();
+        /*var productTypes = await repositories.GetAllTypesAsync();
         var response = mapper.Map<IList<TypeResponse>>(productTypes);
-        return response;
+        return response;*/
+        return null;
     }
 }

@@ -1,5 +1,5 @@
 ﻿namespace Catalog.Core.Responses;
 
-public class ProductDeleteResponse
+public class ProductDeleteResponse : ResponseBase
 {
 }

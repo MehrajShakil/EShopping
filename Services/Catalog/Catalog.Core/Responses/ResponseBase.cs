@@ -3,5 +3,6 @@
 public class ResponseBase
 {
     public int StatusCode { get; set; }
-    public List<string> Messages { get; set; } = new();
+    public string SuccessfulMessage { get; set; }
+    public List<string> ErrorMessages { get; set; } = new();
 }

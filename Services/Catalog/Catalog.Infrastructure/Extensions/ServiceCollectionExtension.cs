@@ -10,6 +10,8 @@ public static class ServiceCollectionExtension
     public static void AddInfrastructureServices(this IServiceCollection services)
     {
         services.AddScoped<IProductRepositories, ProductRepository>();
+        services.AddScoped<IProductBrandRepository, ProductRepository>();
+        services.AddScoped<IProductTypeRepository, ProductRepository>();
         services.AddSingleton<ICatalogContext, CatalogContext>();
     }
 }

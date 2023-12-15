@@ -1,6 +1,9 @@
-﻿namespace Catalog.Core.Entities;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class ProductBrand : BaseEntity
+namespace Catalog.Core.Entities;
+
+public class ProductBrand
 {
-    public required string Name { get; set; }
+    [Required(AllowEmptyStrings = false, ErrorMessage = "No Brand Found")]
+    public string Name { get; set; }
 }

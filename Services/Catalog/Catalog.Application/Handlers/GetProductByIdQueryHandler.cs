@@ -28,7 +28,7 @@ public class GetProductByIdQueryHandler(IProductRepositories productRepositories
         if (product is null)
         {
             productResponse.StatusCode = 404; /// Status Code for not found.
-            productResponse.Messages.Add("Product is not found");
+            productResponse.ErrorMessages.Add("Product is not found");
             return productResponse;
         }
 

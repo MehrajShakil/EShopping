@@ -59,3 +59,4 @@ F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.A
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\Catalog.Api.pdb
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\Catalog.Api.genruntimeconfig.cache
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\ref\Catalog.Api.dll
+F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

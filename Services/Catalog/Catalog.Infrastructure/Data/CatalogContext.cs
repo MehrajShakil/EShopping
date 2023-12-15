@@ -18,6 +18,7 @@ public class CatalogContext : ICatalogContext
 
     public CatalogContext(IConfiguration configuration)
     {
+
         var mongoClient = new MongoClient(configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
         var database = mongoClient.GetDatabase(configuration.GetValue<string>("DatabaseSettings:DatabaseName"));
 

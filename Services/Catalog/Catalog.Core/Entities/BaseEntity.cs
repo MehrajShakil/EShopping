@@ -1,9 +1,6 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
-
-namespace Catalog.Core.Entities;
-
+﻿namespace Catalog.Core.Entities;
 public class BaseEntity
 {
-    [BsonId]
-    public string Id { get; set; }
+    public required string Id { get; set; }
+    public virtual string GetId() => Id;
 }

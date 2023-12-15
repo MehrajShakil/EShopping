@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o8y4oJs+PHRnXdRLBHC6Ox8vsbO+9CxVZMhCe6wnVpHuZjZlE1tZQDRPVTldXD9j9Wu18kURpEua//AyWzAzcA==",
+  "dgSpecHash": "ta5lD/TjPpaLFF4DFwEWtciB8dt46L5lWQiUy9dFOqdgny64E8jKffqEoYiSwiMvfinXiD3Ly+r4luV9rkcwCg==",
   "success": true,
   "projectFilePath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\7.1.0\\aspnetcore.healthchecks.ui.client.7.1.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\7.0.0\\aspnetcore.healthchecks.ui.core.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

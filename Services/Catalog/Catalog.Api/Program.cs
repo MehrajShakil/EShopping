@@ -1,3 +1,4 @@
+using Catalog.Application.Extensions;
 using Catalog.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
 builder.Services.AddApiVersioning();
 
 var app = builder.Build();

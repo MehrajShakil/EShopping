@@ -1,0 +1,12 @@
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.deps.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.AssemblyInfoInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.AssemblyInfo.cs
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.sourcelink.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\refint\Basket.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\ref\Basket.Infrastructure.dll

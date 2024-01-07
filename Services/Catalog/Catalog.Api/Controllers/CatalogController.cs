@@ -16,7 +16,7 @@ public class CatalogController : BaseController
 
 
     [HttpGet]
-    [Route("[action]/{id}")]
+    [Route("GetProductById/{id}")]
     public async Task<IActionResult> GetProductById(string id)
     {
         var query = new GetProductByIdQuery(id);
@@ -25,7 +25,7 @@ public class CatalogController : BaseController
     }
 
     [HttpGet]
-    [Route("[action]")]
+    [Route("GetAllProducts")]
     public async Task<IActionResult> GetAllProducts(PageItemRequest request)
     {
         var query = new GetAllProductsQuery(request);
@@ -34,10 +34,28 @@ public class CatalogController : BaseController
     }
 
     [HttpPost]
-    [Route("[action]")]
+    [Route("CreateProduct")]
     public async Task<IActionResult> CreateProduct(CreateProductCommand command)
     {
         var response = await mediator.Send(command);
         return StatusCode(response.StatusCode, response);
     }
+
+    [HttpPost]
+    [Route("UpdateProduct")]
+    public async Task<IActionResult> UpdateProduct(UpdateProductCommand command)
+    {
+        var response = await mediator.Send(command);
+        return StatusCode(response.StatusCode, response);
+    }
+
+    [HttpPost]
+    [Route("DeleteProduct")]  
+    public async Task<IActionResult> DeleteProduct(string id)
+    {
+        var command = new DeleteProductByIdCommand(id);
+        var response = await mediator.Send(command);
+        return StatusCode(response.StatusCode, response);
+    }
+
 }

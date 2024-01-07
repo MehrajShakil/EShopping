@@ -1,0 +1,12 @@
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.deps.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfoInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfo.cs
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.csproj.CoreCompileInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.sourcelink.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\refint\Basket.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Core\obj\Debug\net8.0\ref\Basket.Core.dll

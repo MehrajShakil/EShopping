@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
+    "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
   },
   "projects": {
-    "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+    "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectUniqueName": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
+        "projectPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -73,17 +78,21 @@
         }
       }
     },
-    "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\Personal Project\\Microservices\\EShopping\\EShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "projectPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,6 +100,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

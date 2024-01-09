@@ -10,3 +10,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\refint\Basket.Infrastructure.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\ref\Basket.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.csproj.AssemblyReference.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.csproj.CopyComplete

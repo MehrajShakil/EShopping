@@ -10,16 +10,19 @@ EXPOSE 8081
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
+WORKDIR /Services
 COPY ["Services/Basket/Basket.Api/Basket.Api.csproj", "Services/Basket/Basket.Api/"]
-RUN dotnet restore "./Services/Basket/Basket.Api/./Basket.Api.csproj"
+COPY ["Services/Basket/Basket.Application/Basket.Application.csproj", "Services/Basket/Basket.Application/"]
+COPY ["Services/Basket/Basket.Core/Basket.Core.csproj", "Services/Basket/Basket.Core/"]
+COPY ["Services/Basket/Basket.Infrastructure/Basket.Infrastructure.csproj", "Services/Basket/Basket.Infrastructure/"]
+RUN dotnet restore "Services/Basket/Basket.Api/Basket.Api.csproj"
 COPY . .
-WORKDIR "/src/Services/Basket/Basket.Api"
-RUN dotnet build "./Basket.Api.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+WORKDIR /Services
+RUN dotnet build "Services/Basket/Basket.Api/Basket.Api.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Basket.Api.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Services/Basket/Basket.Api/Basket.Api.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app

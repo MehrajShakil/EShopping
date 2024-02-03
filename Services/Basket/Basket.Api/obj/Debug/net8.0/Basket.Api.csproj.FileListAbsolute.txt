@@ -1,10 +1,14 @@
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\appsettings.Development.json
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\appsettings.json
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Api.exe
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\appsettings.json
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Api.deps.json
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Api.runtimeconfig.json
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Api.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Api.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Asp.Versioning.Http.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\HealthChecks.Redis.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\HealthChecks.UI.Client.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\HealthChecks.UI.Core.dll
@@ -13,6 +17,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MediatR.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll

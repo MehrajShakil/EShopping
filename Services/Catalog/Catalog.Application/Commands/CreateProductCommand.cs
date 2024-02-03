@@ -25,7 +25,9 @@ public class CreateProductCommand : IRequest<ProductResponse>
         return new ProductResponse
         {
             Name = Name,
-            BrandName = Brand.Name
+            Brand = Brand,
+            Type = Type,
+            Price = Price
         };
     }
 

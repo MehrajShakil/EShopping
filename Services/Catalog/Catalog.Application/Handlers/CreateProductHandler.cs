@@ -17,7 +17,7 @@ public class CreateProductHandler(IProductRepositories repositories, IMapper map
         await repositories.CreateProduct(product);
         var response = request.CreateResponse();
         response.StatusCode = StatusCode.Success;
-        response.SuccessfulMessage = $"Product: {response.Name}, of Brand: {response.BrandName} Created Successfully!";
+        response.SuccessfulMessage = $"Product: {response.Name}, of Brand: {response.Brand.Name} Created Successfully!";
         return response;
     }
 }

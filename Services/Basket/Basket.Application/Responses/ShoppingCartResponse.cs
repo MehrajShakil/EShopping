@@ -9,7 +9,7 @@ public class ShoppingCartResponse
     }
 
     public required string Email { get; set; }
-    List<ShoppingCartItemResponse> Items { get; set; }
+    public List<ShoppingCartItemResponse> Items { get; set; }
     public double TotalPrice
     {
         get

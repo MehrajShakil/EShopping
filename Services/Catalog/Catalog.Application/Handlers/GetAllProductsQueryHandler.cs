@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Catalog.Application.Queries;
 using Catalog.Application.Responses;
+using Catalog.Core.Constants;
 using Catalog.Core.Pagination;
 using Catalog.Core.Repositories;
 using MediatR;
@@ -12,7 +13,14 @@ public class GetAllProductsQueryHandler(IProductRepositories repositories, IMapp
     public async Task<PaginatedResponse<ProductResponse>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
         var response = await repositories.GetProductsAsync(request.request);
-        var products = mapper.Map<PaginatedResponse<ProductResponse>>(response);
+
+        var products = new PaginatedResponse<ProductResponse>
+        {
+            Items = mapper.Map<List<ProductResponse>>(response.Items),
+        };
+
+        products.StatusCode = StatusCode.Success;
+
         return products;
     }
 }

@@ -2,6 +2,7 @@
 using Basket.Core.Repositories;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
+using StackExchange.Redis;
 
 namespace Basket.Infrastructure.Repository;
 
@@ -38,6 +39,11 @@ public class BasketRepository : IBasketRepository
     public async Task UpdateBasketAsync(ShoppingCart cart)
     {
         var shoppingCartString = JsonConvert.SerializeObject(cart);
-        await redisCache.SetStringAsync(cart.Email, shoppingCartString);
+
+        DistributedCacheEntryOptions options = new DistributedCacheEntryOptions()
+            .SetAbsoluteExpiration(DateTime.Now.AddMinutes(5))
+            .SetSlidingExpiration(TimeSpan.FromMinutes(3));
+
+        await redisCache.SetStringAsync(cart.Email, shoppingCartString, options);
     }
 }

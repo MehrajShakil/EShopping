@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "C2Y6drUJ7QIn2CXbL63tw2PmzIEBrGSv7+tTHffECK+qDidlC8ycOC9jDmQvO2oZiH9GxtNvb2k/Vm3EEE6w9Q==",
+  "success": true,
+  "projectFilePath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Discount\\Discount.Application\\Discount.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.aspnetcore\\2.60.0\\grpc.aspnetcore.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.aspnetcore.server\\2.60.0\\grpc.aspnetcore.server.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.60.0\\grpc.aspnetcore.server.clientfactory.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.core.api\\2.60.0\\grpc.core.api.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.net.client\\2.60.0\\grpc.net.client.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.net.clientfactory\\2.60.0\\grpc.net.clientfactory.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.net.common\\2.60.0\\grpc.net.common.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\grpc.tools\\2.60.0\\grpc.tools.2.60.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

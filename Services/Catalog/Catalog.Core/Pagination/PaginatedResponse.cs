@@ -1,6 +1,8 @@
-﻿namespace Catalog.Core.Pagination;
+﻿using Catalog.Core.Responses;
 
-public sealed class PaginatedResponse<T>
+namespace Catalog.Core.Pagination;
+
+public sealed class PaginatedResponse<T> : ResponseBase
 {
     public int PageIndex { get; set; }
     public int TotalCount { get; set; }

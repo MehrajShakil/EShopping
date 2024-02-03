@@ -20,7 +20,13 @@ public class GetBasketByEmailHandler : IRequestHandler<GetBasketByEmailQuery, Sh
     public async Task<ShoppingCartResponse> Handle(GetBasketByEmailQuery request, CancellationToken cancellationToken)
     {
         var shoppingcart =  await basketRepository.GetBasketByEmailAsync(request.Email);
-        var response = mapper.Map<ShoppingCartResponse>(shoppingcart);
+
+        var response = new ShoppingCartResponse 
+        {
+            Email = shoppingcart.Email,
+            Items = mapper.Map<List<ShoppingCartItemResponse>>(shoppingcart.Items)
+        };
+
         return response;
     }
 }

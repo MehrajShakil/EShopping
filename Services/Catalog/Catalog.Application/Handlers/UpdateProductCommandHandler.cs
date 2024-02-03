@@ -18,7 +18,7 @@ public class UpdateProductCommandHandler(IProductRepositories repositories, IMap
         var productUpdated = await repositories.UpdateProduct(product);
         var response = request.CreateResponse();
         response.StatusCode = StatusCode.Success;
-        response.SuccessfulMessage = $"Product: {response.Name}, of Brand: {response.BrandName} Created Successfully!";
+        response.SuccessfulMessage = $"Product: {response.Name}, of Brand: {response.Brand.Name} Created Successfully!";
         return response;
     }
 }

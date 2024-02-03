@@ -24,13 +24,13 @@ public class CatalogController : BaseController
         return StatusCode(response.StatusCode, response);
     }
 
-    [HttpGet]
+    [HttpPost]
     [Route("GetAllProducts")]
     public async Task<IActionResult> GetAllProducts(PageItemRequest request)
     {
         var query = new GetAllProductsQuery(request);
         var response = await mediator.Send(query);
-        return StatusCode(200, "");
+        return StatusCode(response.StatusCode, response);
     }
 
     [HttpPost]

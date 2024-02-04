@@ -53,3 +53,8 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.genruntimeconfig.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\obj\Debug\net8.0\ref\Basket.Api.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Core.Api.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Client.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Common.dll

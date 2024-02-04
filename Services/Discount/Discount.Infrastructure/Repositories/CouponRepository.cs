@@ -1,6 +1,7 @@
 ﻿using Discount.Application.Interfaces;
 using Discount.Core.Entities;
 using Discount.Core.Repositories;
+using MongoDB.Driver;
 
 namespace Discount.Infrastructure.Repositories;
 
@@ -24,9 +25,11 @@ internal class CouponRepository : ICouponRepository
         throw new NotImplementedException();
     }
 
-    public Task<Coupon> GetByProductNameAsync(string productName)
+    public async Task<Coupon> GetByProductNameAsync(string productName)
     {
-        throw new NotImplementedException();
+        Coupon coupon = null;
+        // need to implemented.
+        return coupon;
     }
 
     public Task<Coupon> UpdateAsync(Coupon coupon)

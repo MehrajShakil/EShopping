@@ -39,7 +39,7 @@ if (string.IsNullOrEmpty(redisConnectionString))
 services.AddControllers();
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
-services.AddApplicationServices();
+services.AddApplicationServices(builder.Configuration);
 services.AddInfrastructureServices();
 services.AddApiVersioning();
 builder.Services.AddStackExchangeRedisCache(redisCacheOptions =>

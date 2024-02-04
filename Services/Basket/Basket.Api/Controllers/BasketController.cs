@@ -1,4 +1,5 @@
 ﻿using Basket.Application.Commands;
+using Basket.Application.GrpcServices;
 using Basket.Application.Queries;
 using Basket.Core.Repositories;
 using Basket.Infrastructure.Repository;
@@ -11,16 +12,24 @@ public class BasketController : BaseController
 {
     private readonly IMediator mediator;
     private readonly IServiceProvider services;
+    private readonly DiscountGrpcService _discountGrpcService;
 
-    public BasketController(IMediator mediator, IServiceProvider services)
+    public BasketController(IMediator mediator, IServiceProvider services, DiscountGrpcService discountGrpcService)
     {
         this.mediator = mediator;
         this.services = services;
+        _discountGrpcService = discountGrpcService;
     }
 
     [HttpPost("CreateBasket")]
     public async Task<IActionResult> CreateBasket(CreateShoppingCartCommand command)
     {
+        foreach (var item in command.Items)
+        {
+            var coupon = await _discountGrpcService.GetDiscountAsync(item.ProductName);
+            item.Price -= coupon.Amount;
+        }
+
         await mediator.Send(command);
         return Ok();
     }

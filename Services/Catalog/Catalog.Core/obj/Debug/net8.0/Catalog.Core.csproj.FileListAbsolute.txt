@@ -11,16 +11,3 @@ F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.C
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
 F:\Personal Project\Microservices\EShopping\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.deps.json
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.pdb
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.AssemblyReference.cache
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfoInputs.cache
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfo.cs
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.CoreCompileInputs.cache
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.sourcelink.json
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll

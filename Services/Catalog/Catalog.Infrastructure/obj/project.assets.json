@@ -1256,7 +1256,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Catalog.Application >= 1.0.0",
-      "Catalog.Core >= 1.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 8.0.0"
     ]
   },
@@ -1289,9 +1288,6 @@
           "projectReferences": {
             "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
               "projectPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
-            },
-            "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-              "projectPath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
             }
           }
         }

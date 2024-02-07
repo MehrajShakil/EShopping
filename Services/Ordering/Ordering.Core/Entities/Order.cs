@@ -2,6 +2,7 @@
 
 public class Order : BaseEntity
 {
+    public string? Email { get; set; }
     public string? UserName { get; set; }
     public decimal? TotalPrice { get; set;}
     public string? FirstName { get; set; }

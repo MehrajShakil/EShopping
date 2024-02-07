@@ -8,7 +8,7 @@ namespace Ordering.Infrastructure.Repositories;
 
 public class RepositoryBase<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
 {
-    private readonly OrderContext _orderContext;
+    protected readonly OrderContext _orderContext;
 
     public RepositoryBase(OrderContext orderContext)
     {

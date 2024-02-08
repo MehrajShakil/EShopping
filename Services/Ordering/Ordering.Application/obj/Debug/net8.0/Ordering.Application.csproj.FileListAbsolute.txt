@@ -10,3 +10,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\obj\Debug\net8.0\refint\Ordering.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\obj\Debug\net8.0\ref\Ordering.Application.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.csproj.AssemblyReference.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\bin\Debug\net8.0\Ordering.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\bin\Debug\net8.0\Ordering.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.csproj.CopyComplete

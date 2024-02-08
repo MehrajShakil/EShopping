@@ -5,6 +5,7 @@ using Basket.Infrastructure.Repository;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using StackExchange.Redis;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,6 +50,15 @@ builder.Services.AddStackExchangeRedisCache(redisCacheOptions =>
 
 builder.Services.AddHealthChecks()
     .AddRedis(redisConnectionString, "Redis Health", HealthStatus.Degraded);
+
+builder.Services.AddMassTransit(cfg =>
+{
+    cfg.UsingRabbitMq((busRegistrationContext, configure) =>
+    {
+        configure.Host(builder.Configuration["EventBusSettings:HostAddress"]);
+    });
+});
+
 
 
 var app = builder.Build();

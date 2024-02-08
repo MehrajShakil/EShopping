@@ -22,7 +22,7 @@ public class RepositoryBase<TEntity> : IRepository<TEntity> where TEntity : Base
         return entity;
     }
 
-    public async Task DeleteByIdAsync(TEntity entity)
+    public async Task DeleteAsync(TEntity entity)
     {
         _orderContext.Set<TEntity>().Remove(entity);
          await _orderContext.SaveChangesAsync();

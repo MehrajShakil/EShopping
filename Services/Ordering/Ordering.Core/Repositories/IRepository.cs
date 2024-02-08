@@ -10,5 +10,5 @@ public interface IRepository<TEntity> where TEntity : BaseEntity
     Task<TEntity> GetItemByIdAsync(int id);
     Task<TEntity> AddAsync(TEntity entity);
     Task<TEntity> UpdateAsync(TEntity entity);
-    Task DeleteByIdAsync(TEntity entity);
+    Task DeleteAsync(TEntity entity);
 }

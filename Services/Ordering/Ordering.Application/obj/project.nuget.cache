@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5n3PHSNO79RGNR6Ajh054nbKyFA8V+2f6ua/rtWDv1NgzNOBIS8EtLvDegmcxmdaR2qNmhc6ESyB0tev9sLHxQ==",
+  "dgSpecHash": "2vZ/1W+2V0ncS0+4uCp6x51E22JWjHgjEEtBoUP5PIWNcqBKn4avAwZebXZtoOYrkk3fAZ6CgfBb3U+U7TgJTg==",
   "success": true,
   "projectFilePath": "E:\\Development Stack\\.NET\\Courses\\Udemy\\Microservices with Clean Architecture\\EShopping\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,11 @@
     "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Mehraj Hossain\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

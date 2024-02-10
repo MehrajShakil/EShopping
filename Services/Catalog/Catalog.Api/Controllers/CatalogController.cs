@@ -16,7 +16,7 @@ public class CatalogController : BaseController
 
 
     [HttpGet]
-    [Route("GetProductById/{id}")]
+    [Route("GetProductById")]
     public async Task<IActionResult> GetProductById(string id)
     {
         var query = new GetProductByIdQuery(id);

@@ -19,6 +19,11 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Client.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Common.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MassTransit.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MassTransit.Abstractions.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MassTransit.AspNetCoreIntegration.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MediatR.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
@@ -26,6 +31,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\StackExchange.Redis.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -33,6 +39,8 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Core.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\EventBus.Messages.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\EventBus.Messages.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Infrastructure.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Api\bin\Debug\net8.0\Basket.Core.pdb

@@ -2,7 +2,9 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Infrastructure.runtimeconfig.json
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Infrastructure.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Infrastructure.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Core.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.csproj.AssemblyReference.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +18,3 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.genruntimeconfig.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\ref\Ordering.Infrastructure.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Application.dll
-E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Application.pdb

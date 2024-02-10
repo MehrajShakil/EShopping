@@ -36,10 +36,13 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
             .Limit(request.PageSize)
             .ToListAsync();
 
+        var totalItems = await context.Product.EstimatedDocumentCountAsync();
+
         var pageResponse = new PaginatedResponse<Product>()
         {
             PageIndex = request.PageIndex,
-            Items = items
+            Items = items,
+            TotalCount = totalItems
         };
 
         return pageResponse;

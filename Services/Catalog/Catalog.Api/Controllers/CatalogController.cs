@@ -28,6 +28,10 @@ public class CatalogController : BaseController
     [Route("GetAllProducts")]
     public async Task<IActionResult> GetAllProducts(PageItemRequest request)
     {
+        if(request.PageIndex == 0)
+        {
+            return BadRequest("Page index can not be 0.");
+        }
         var query = new GetAllProductsQuery(request);
         var response = await mediator.Send(query);
         return StatusCode(response.StatusCode, response);

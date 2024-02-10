@@ -41,7 +41,7 @@
         {
             "UpstreamPathTemplate": "/api/1.0/Catalog/GetAllProducts",
             "DownstreamPathTemplate": "/api/1.0/Catalog/GetAllProducts",
-            "UpstreamHttpMethod": [ "Get" ],
+            "UpstreamHttpMethod": [ "Post" ],
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {

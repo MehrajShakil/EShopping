@@ -16,7 +16,9 @@ public class GetAllProductsQueryHandler(IProductRepositories repositories, IMapp
 
         var products = new PaginatedResponse<ProductResponse>
         {
+            PageIndex = response.PageIndex,
             Items = mapper.Map<List<ProductResponse>>(response.Items),
+            TotalCount = response.TotalCount
         };
 
         products.StatusCode = StatusCode.Success;

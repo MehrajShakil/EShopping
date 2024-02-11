@@ -4,7 +4,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.scss',
-  // encapsulation: ViewEncapsulation.ShadowDom
+  //encapsulation: ViewEncapsulation.ShadowDom,
+  encapsulation: ViewEncapsulation.None
 })
 export class NavBarComponent {
 

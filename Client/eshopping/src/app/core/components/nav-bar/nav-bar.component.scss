@@ -1,10 +1,61 @@
 @import "../../../../../node_modules/font-awesome/css/font-awesome.css";
 
-.app-nav-bar{
-  .nav-bar-container{
-    &.top-row{
+app-nav-bar {
+  .nav-bar-container {
+    padding: 10px;
+
+    .top-row {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      position: relative;
+      margin: 0 auto;
+      align-items: center;
+      .logo{
+        color: #DC4D01;
+        padding: 5px;
+        left: 250px;
+        position: relative;
+        font-size: 35px;
+      }
+      .categories-dropdown{
+        position: relative;
+        left: 270px;
+      }
+      .search-box{
+        position: relative;
+        left: 290px;
+        .custom-search-box{
+          width: 830px;
+          height: 35px;
+          border-radius: 30px;
+        }
+      }
+      .sign-in{
+        position: relative;
+        left: 320px;
+      }
+      .favourite-icon{
+        position: relative;
+        left: 350px;
+      }
+      .cart-icon{
+        position: relative;
+        left: 380px;
+      }
+    }
+
+    .bottom-row {
+      padding: 10px;
+      .header-categories {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .child{
+          flex: 0 0 auto; /* Allow the child divs to grow or shrink as needed */
+          margin: 0 10px;
+        }
+      }
     }
   }
 }

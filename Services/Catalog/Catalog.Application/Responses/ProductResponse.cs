@@ -8,6 +8,6 @@ public class ProductResponse : ResponseBase
 
     public  string Name { get; set; }
     public  ProductBrand Brand { get; set; }
-    public  ProductType Type { get; set; }
+    public  ProductCategory Type { get; set; }
     public decimal Price { get; set; }
 }

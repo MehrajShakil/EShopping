@@ -11,7 +11,7 @@ public static class ServiceCollectionExtension
     {
         services.AddScoped<IProductRepositories, ProductRepository>();
         services.AddScoped<IProductBrandRepository, ProductRepository>();
-        services.AddScoped<IProductTypeRepository, ProductRepository>();
+        services.AddScoped<IProductCategoryRepository, ProductRepository>();
         services.AddSingleton<ICatalogContext, CatalogContext>();
     }
 }

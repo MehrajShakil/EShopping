@@ -8,7 +8,7 @@ using MongoDB.Driver;
 
 namespace Catalog.Infrastructure.Repositories;
 
-public class ProductRepository : IProductRepositories, IProductBrandRepository, IProductTypeRepository
+public class ProductRepository : IProductRepositories, IProductBrandRepository, IProductCategoryRepository
 {
     private readonly ICatalogContext context;
 
@@ -64,16 +64,16 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
 
         return pageResponse;
     }
-    public async Task<PaginatedResponse<ProductType>> GetAllTypesAsync(PageItemRequest request)
+    public async Task<PaginatedResponse<ProductCategory>> GetAllCategoriesAsync(PageItemRequest request)
     {
         var items = await context
-            .ProductType
+            .ProductCategory
             .Find(brand => true)
             .Skip(request.PageSize * (request.PageIndex - 1))
             .Limit(request.PageSize)
             .ToListAsync();
 
-        var pageResponse = new PaginatedResponse<ProductType>()
+        var pageResponse = new PaginatedResponse<ProductCategory>()
         {
             PageIndex = request.PageIndex,
             Items = items
@@ -81,6 +81,31 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
 
         return pageResponse;
     }
+
+    public async Task<ProductCategory> GetProductCategoryByIdAsync(string id)
+    {
+        var item = await context.ProductCategory.FindAsync(category => category.Id == id);
+        return item.FirstOrDefault();
+    }
+
+    public async Task<ProductCategory> GetProductCategoryByNameAsync(string name)
+    {
+        var item = await context.ProductCategory.FindAsync(category => category.Name == $"$regex: /{name}/i");
+        return item.FirstOrDefault();
+    }
+
+    public async Task<ProductCategory> CreateProductCategoryAsync(ProductCategory category)
+    {
+        await context.ProductCategory.InsertOneAsync(category);
+        return category;
+    }
+
+    public async Task<IList<ProductCategory>> GetAllCategoriesAsync()
+    {
+        var items = await context.ProductCategory.Find(category => true).ToListAsync();
+        return items;
+    }
+
     public async Task<Product> GetProductByIdAsync(string id)
     {
         var builder = Builders<Product>.Filter;

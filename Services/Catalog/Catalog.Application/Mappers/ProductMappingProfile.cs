@@ -13,8 +13,10 @@ public class ProductMappingProfile : Profile
         CreateMap<ProductBrand, BrandResponse>().ReverseMap();
         CreateMap<Product, ProductResponse>().ReverseMap();
         CreateMap<ProductBrand, ProductBrand>();
-        CreateMap<ProductType, ProductType>();
+        CreateMap<ProductCategory, ProductCategory>();
         CreateMap<CreateProductCommand, Product>();
         CreateMap<UpdateProductCommand, Product>();
+        CreateMap<ProductCategory, ProductCategoryResponse>()
+            .ReverseMap();
     }
 }

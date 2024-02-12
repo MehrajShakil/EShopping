@@ -10,7 +10,7 @@ public class CatalogContext : ICatalogContext
 
     #region Collections
 
-    public IMongoCollection<ProductType> ProductType {  get; set; }
+    public IMongoCollection<ProductCategory> ProductCategory {  get; set; }
     public IMongoCollection<Product> Product { get; set; }
     public IMongoCollection<ProductBrand> ProductBrand { get; set; }
 
@@ -23,7 +23,7 @@ public class CatalogContext : ICatalogContext
         var database = mongoClient.GetDatabase(configuration.GetValue<string>("DatabaseSettings:DatabaseName"));
 
         Product = database.GetCollection<Product>(nameof(Product));
-        ProductType = database.GetCollection<ProductType>(nameof(ProductType));
+        ProductCategory = database.GetCollection<ProductCategory>(nameof(ProductCategory));
         ProductBrand = database.GetCollection<ProductBrand>(nameof(ProductBrand));
     }
 

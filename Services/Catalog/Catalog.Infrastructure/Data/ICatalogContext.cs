@@ -6,7 +6,7 @@ namespace Catalog.Infrastructure.Data;
 
 public interface ICatalogContext
 {
-    public IMongoCollection<ProductType> ProductType { get; set; }
+    public IMongoCollection<ProductCategory> ProductCategory { get; set; }
     public IMongoCollection<Product> Product { get; set; }
     public IMongoCollection<ProductBrand> ProductBrand { get; set; }
 }

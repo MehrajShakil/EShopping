@@ -2,6 +2,7 @@
 using Catalog.Application.Queries;
 using Catalog.Core.Pagination;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace Catalog.Api.Controllers;
 
@@ -54,12 +55,32 @@ public class CatalogController : BaseController
     }
 
     [HttpPost]
-    [Route("DeleteProduct")]  
+    [Route("DeleteProduct")]
     public async Task<IActionResult> DeleteProduct(string id)
     {
         var command = new DeleteProductByIdCommand(id);
         var response = await mediator.Send(command);
         return StatusCode(response.StatusCode, response);
     }
+
+    [AllowAnonymous]
+    [HttpGet("GetProductCategories")]
+    public async Task<IActionResult> GetProductCategories()
+    {
+        var query = new GetAllProductCategoriesQuery();
+        var categoreis = await mediator.Send(query);
+        return StatusCode(200, categoreis);
+    }
+
+    // adminstrators
+    [HttpPost("createProductCategory")]
+    public async Task<IActionResult> CreateProductCategory(CreateProductCategoryCommand command)
+    {
+        var response = await mediator.Send(command);
+        return StatusCode(200, response);
+    }
+    
+
+
 
 }

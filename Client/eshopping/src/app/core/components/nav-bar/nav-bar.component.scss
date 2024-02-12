@@ -34,19 +34,21 @@ app-nav-bar {
       .sign-in{
         position: relative;
         left: 320px;
+        button{
+          border-radius: 20px;
+        }
       }
       .favourite-icon{
         position: relative;
-        left: 350px;
+        left: 325px;
       }
       .cart-icon{
         position: relative;
-        left: 380px;
+        left: 330px;
       }
     }
 
     .bottom-row {
-      padding: 10px;
       .header-categories {
         display: flex;
         flex-direction: row;
@@ -54,6 +56,9 @@ app-nav-bar {
         .child{
           flex: 0 0 auto; /* Allow the child divs to grow or shrink as needed */
           margin: 0 10px;
+        }
+        .child button{
+          border-radius: 20px;
         }
       }
     }

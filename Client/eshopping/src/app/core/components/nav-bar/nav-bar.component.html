@@ -4,28 +4,33 @@
             Etsy
         </div>
         <div class="categories-dropdown">
-            Categories
+            <!-- <button mat-button> <mat-icon>list</mat-icon> Categories </button> -->
+            <app-product-categories> </app-product-categories>
         </div>
         <div class="search-box">
-            <input class="custom-search-box" placeholder="     Search..." value="">
+            <input class="custom-search-box" placeholder="     Search for everything" value="">
         </div>
         <div class="sign-in">
-            Sign in
+            <button mat-button>  Sign in </button>
         </div>
         <div class="favourite-icon">
-            Fav
+            <button mat-icon-button>
+                <mat-icon>favorite_border</mat-icon>
+              </button>
         </div>
         <div class="cart-icon">
-            Cart
+            <button mat-icon-button>
+                <mat-icon>shopping_cart</mat-icon>
+            </button>
         </div>
     </div>
 
     <div class="bottom-row">
         <div class="header-categories">
-                <div class="child"> Home Favorites </div>
-                <div class="child"> Fashion Finds </div>
-                <div class="child"> Gift Guides </div>
-                <div class="child"> Registry </div>
+                <div class="child"> <button mat-button>Home Favorites</button></div>
+                <div class="child"> <button mat-button>Fashion Finds</button>  </div>
+                <div class="child"> <button mat-button>Gift Guides</button>  </div>
+                <div class="child"> <button mat-button>Registry</button> </div>
         </div>
     </div>
 </div>

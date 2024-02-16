@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = IdentityServer
+build_property.ProjectDir = E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\IdentityServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

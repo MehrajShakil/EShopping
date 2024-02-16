@@ -15,6 +15,7 @@ public class CatalogController : BaseController
         this.mediator = mediator;
     }
 
+    #region Products actions
 
     [HttpGet]
     [Route("GetProductById")]
@@ -63,6 +64,10 @@ public class CatalogController : BaseController
         return StatusCode(response.StatusCode, response);
     }
 
+    #endregion
+
+    #region Product category actions
+
     [AllowAnonymous]
     [HttpGet("GetProductCategories")]
     public async Task<IActionResult> GetProductCategories()
@@ -73,14 +78,21 @@ public class CatalogController : BaseController
     }
 
     // adminstrators
-    [HttpPost("createProductCategory")]
+    [HttpPost("CreateProductCategory")]
     public async Task<IActionResult> CreateProductCategory(CreateProductCategoryCommand command)
     {
         var response = await mediator.Send(command);
         return StatusCode(200, response);
     }
-    
 
+    // adminstrators
+    [HttpPost("UpdateProductCategory")]
+    public async Task<IActionResult> UpdateProductCategory(UpdateProductCategoryCommand command)
+    {
+        await mediator.Send(command);
+        return StatusCode(200, "Successfully Updated!");
+    }
 
+    #endregion
 
 }

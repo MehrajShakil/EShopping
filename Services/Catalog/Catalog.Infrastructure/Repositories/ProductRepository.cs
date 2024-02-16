@@ -100,6 +100,12 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
         return category;
     }
 
+    public async Task UpdateProductCategoryAsync(ProductCategory category)
+    {
+        await context.ProductCategory
+            .ReplaceOneAsync(category => category.Id == category.Id, category);
+    }
+
     public async Task<IList<ProductCategory>> GetAllCategoriesAsync()
     {
         var items = await context.ProductCategory.Find(category => true).ToListAsync();

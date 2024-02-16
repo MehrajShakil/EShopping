@@ -80,6 +80,13 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\DnsClient.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MediatR.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MongoDB.Bson.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MongoDB.Driver.dll
@@ -90,6 +97,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\ZstdSharp.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib

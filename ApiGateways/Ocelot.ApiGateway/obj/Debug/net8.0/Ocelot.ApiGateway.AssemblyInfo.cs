@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ocelot.ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3936be87523ecd7c8377928cfdd8d6d4bb2af937")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3d5af654bdfc5e90cc1f338a9f151ba342a90c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ocelot.ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ocelot.ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

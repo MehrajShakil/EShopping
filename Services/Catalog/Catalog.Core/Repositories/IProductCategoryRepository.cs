@@ -10,4 +10,5 @@ public interface IProductCategoryRepository
     Task<PaginatedResponse<ProductCategory>> GetAllCategoriesAsync(PageItemRequest request);
     Task<ProductCategory> GetProductCategoryByIdAsync(string id);
     Task<ProductCategory> GetProductCategoryByNameAsync(string name);
+    Task UpdateProductCategoryAsync(ProductCategory category);
 }

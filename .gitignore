@@ -246,3 +246,4 @@ paket-files/
 
 #bin folder
 bin/
+obj/

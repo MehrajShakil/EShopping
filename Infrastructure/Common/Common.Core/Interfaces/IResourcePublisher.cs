@@ -2,6 +2,5 @@
 
 public interface IResourcePublisher
 {
-    public bool Enabled { get; }
     Task PublishAsync();
 }

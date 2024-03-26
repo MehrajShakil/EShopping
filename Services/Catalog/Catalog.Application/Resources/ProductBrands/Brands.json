@@ -1,0 +1,9 @@
+[
+    {
+        "Id": "msi",
+        "Name": "MSI",
+        "ParentCategoryIds": [
+            "electronics"
+        ]
+    }
+]

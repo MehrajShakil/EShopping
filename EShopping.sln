@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Core", "Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityProvider", "Infrastructure\IdentityProvider\IdentityProvider.csproj", "{7F8AB5A0-5188-42CB-A40A-B1711EA86586}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{17966529-C364-490E-8214-371B9C934961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{7F8AB5A0-5188-42CB-A40A-B1711EA86586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8AB5A0-5188-42CB-A40A-B1711EA86586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8AB5A0-5188-42CB-A40A-B1711EA86586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17966529-C364-490E-8214-371B9C934961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17966529-C364-490E-8214-371B9C934961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17966529-C364-490E-8214-371B9C934961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17966529-C364-490E-8214-371B9C934961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

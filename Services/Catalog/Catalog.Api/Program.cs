@@ -1,6 +1,7 @@
 using Catalog.Api.Extensions;
 using Catalog.Application.Extensions;
 using Catalog.Infrastructure.Extensions;
+using Common.Core.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,9 +39,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+await app.OnStartupEvent();
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-
 app.Run();

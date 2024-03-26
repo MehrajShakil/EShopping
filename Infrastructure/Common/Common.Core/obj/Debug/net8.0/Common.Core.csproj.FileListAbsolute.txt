@@ -1,0 +1,12 @@
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\bin\Debug\net8.0\Common.Core.deps.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\bin\Debug\net8.0\Common.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\bin\Debug\net8.0\Common.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.AssemblyInfoInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.AssemblyInfo.cs
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.csproj.CoreCompileInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.sourcelink.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\refint\Common.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\Common.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Infrastructure\Common\Common.Core\obj\Debug\net8.0\ref\Common.Core.dll

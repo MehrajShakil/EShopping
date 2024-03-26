@@ -11,7 +11,8 @@
             <input class="custom-search-box" placeholder="     Search for everything" value="">
         </div>
         <div class="sign-in">
-            <button mat-button>  Sign in </button>
+            <button mat-button (click)="signIn()"> Sign in </button>
+            <ng-template #logInComponentContainer></ng-template> 
         </div>
         <div class="favourite-icon">
             <button mat-icon-button>

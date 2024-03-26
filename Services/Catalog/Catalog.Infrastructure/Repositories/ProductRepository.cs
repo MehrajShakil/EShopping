@@ -100,6 +100,12 @@ public class ProductRepository : IProductRepositories, IProductBrandRepository, 
         return category;
     }
 
+    public async Task<bool> CreateProductCategoriesAsync(List<ProductCategory> categories)
+    {
+        await context.ProductCategory.InsertManyAsync(categories);
+        return true;
+    }
+
     public async Task UpdateProductCategoryAsync(ProductCategory category)
     {
         await context.ProductCategory

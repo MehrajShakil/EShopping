@@ -18,6 +18,8 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Catalog.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Catalog.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Catalog.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Common.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Common.Core.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\bin\Debug\net8.0\Catalog.Core.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\obj\Debug\net8.0\Catalog.Application.csproj.AssemblyReference.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Application\obj\Debug\net8.0\Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig

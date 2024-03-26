@@ -1,0 +1,156 @@
+﻿{
+    "Routes": [
+
+        /// Service 1:: Catalog Api
+        {
+            "UpstreamPathTemplate": "/api/1.0/Catalog/CreateProduct",
+            "DownstreamPathTemplate": "/api/1.0/Catalog/CreateProduct",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Catalog/UpdateProduct",
+            "DownstreamPathTemplate": "/api/1.0/Catalog/UpdateProduct",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Catalog/DeleteProduct",
+            "DownstreamPathTemplate": "/api/1.0/Catalog/DeleteProduct",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Catalog/GetAllProducts",
+            "DownstreamPathTemplate": "/api/1.0/Catalog/GetAllProducts",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Catalog/GetProductById",
+            "DownstreamPathTemplate": "/api/1.0/Catalog/GetProductById",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+
+        /// Service 2:: Basket
+        {
+            "UpstreamPathTemplate": "/api/1.0/Basket/CreateBasket",
+            "DownstreamPathTemplate": "/api/1.0/Basket/CreateBasket",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5142
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Basket/GetBasket",
+            "DownstreamPathTemplate": "/api/1.0/Basket/GetBasket",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5142
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Basket/DeleteBasket",
+            "DownstreamPathTemplate": "/api/1.0/Basket/DeleteBasket",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5142
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/1.0/Basket/checkout",
+            "DownstreamPathTemplate": "/api/1.0/Basket/checkout",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5142
+                }
+            ]
+        },
+
+        /// Service 3:: Discount
+            // This api implemented using grpc.
+        /// Service 4: Ordering
+        {
+            "UpstreamPathTemplate": "/api/Order/GetOrdersByEmail",
+            "DownstreamPathTemplate": "/api/Order/GetOrdersByEmail",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5227
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/Order/UpdateOrder",
+            "DownstreamPathTemplate": "/api/Order/UpdateOrder",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5227
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/api/Order/DeleteOrder",
+            "DownstreamPathTemplate": "/api/Order/DeleteOrder",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5227
+                }
+            ]
+        }
+    ]
+}

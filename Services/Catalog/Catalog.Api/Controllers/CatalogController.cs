@@ -44,7 +44,10 @@ public class CatalogController : BaseController
     public async Task<IActionResult> CreateProduct(CreateProductCommand command)
     {
         var response = await mediator.Send(command);
-        return StatusCode(response.StatusCode, response);
+
+
+
+        return Ok();//StatusCode(response.StatusCode, "");
     }
 
     [HttpPost]

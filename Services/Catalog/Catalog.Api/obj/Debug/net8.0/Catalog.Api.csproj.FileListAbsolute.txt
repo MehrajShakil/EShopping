@@ -92,6 +92,7 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MongoDB.Driver.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MongoDB.Driver.Core.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\SharpCompress.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Snappier.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -105,9 +106,11 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Core.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Infrastructure.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Common.Core.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Infrastructure.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Catalog.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\bin\Debug\net8.0\Common.Core.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\Catalog.Api.csproj.AssemblyReference.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\Catalog.Api.GeneratedMSBuildEditorConfig.editorconfig
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Api\obj\Debug\net8.0\Catalog.Api.AssemblyInfoInputs.cache

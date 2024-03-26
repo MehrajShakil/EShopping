@@ -1,0 +1,16 @@
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\bin\Debug\net8.0\Basket.Application.deps.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\bin\Debug\net8.0\Basket.Application.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\bin\Debug\net8.0\Basket.Application.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\bin\Debug\net8.0\Basket.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\bin\Debug\net8.0\Basket.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.csproj.AssemblyReference.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.AssemblyInfoInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.AssemblyInfo.cs
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.csproj.CoreCompileInputs.cache
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.sourcelink.json
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.csproj.CopyComplete
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\refint\Basket.Application.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\Basket.Application.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Basket\Basket.Application\obj\Debug\net8.0\ref\Basket.Application.dll

@@ -21,8 +21,10 @@ E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\ES
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Catalog.Infrastructure.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Catalog.Application.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Catalog.Core.dll
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Common.Core.dll
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Catalog.Application.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Catalog.Core.pdb
+E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\bin\Debug\net8.0\Common.Core.pdb
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\obj\Debug\net8.0\Catalog.Infrastructure.csproj.AssemblyReference.cache
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\obj\Debug\net8.0\Catalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 E:\Development Stack\.NET\Courses\Udemy\Microservices with Clean Architecture\EShopping\Services\Catalog\Catalog.Infrastructure\obj\Debug\net8.0\Catalog.Infrastructure.AssemblyInfoInputs.cache
